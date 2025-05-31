@@ -1,0 +1,38 @@
+{
+  "expo": {
+    "name": "Bwgs-Transport",
+    "slug": "transport-frontend",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "config": {
+        "googleMaps": {
+          "apiKey": "AIzaSyDM-suUtkwULUh5SyERwvhQo3-YPvLUk8U"
+        }
+      },
+      "package": "com.bwgs.transport"
+    },
+    "web": {
+      "favicon": "./assets/adaptive-icon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "95c92472-95f2-4248-9d7b-12a444398e74"
+      }
+    }
+  }
+}
